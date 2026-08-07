@@ -82,3 +82,16 @@ int main() {
     free(arr_par);
     return 0;
 }
+OUTPUT:
+PS C:\Users\smv\Desktop\23cs163> gcc -fopenmp merge.c -o merge
+PS C:\Users\smv\Desktop\23cs163> ./merge.exe
+Sorting 100000 elements...
+
+Sequential Merge Sort Time: 0.017000 seconds
+Parallel Merge Sort Time:   0.011000 seconds
+
+Difference (Sequential - Parallel): 0.006000 seconds
+Speedup: 1.55x
+
+Verification: First 20 elements of the sorted array:
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 
