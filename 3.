@@ -28,3 +28,8 @@ int main() {
     }
     return 0;
 }
+output:
+PS C:\Users\smv\Desktop\23cs163> gcc -fopenmp lab3.c -o lab3
+PS C:\Users\smv\Desktop\23cs163> ./lab3.exe                 
+Enter the Fibonacci number to calculate:12
+fib(12) = 144
